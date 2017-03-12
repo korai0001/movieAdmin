@@ -1,0 +1,44 @@
+<!--
+***********************************
+動画管理システム　rubyBullet
+ローカルフォルダに整理された動画を容易に確認する為の画面
+
+
+
+***********************************
+-->
+<html>
+<head>
+	<title>動画管理システム - rubyBullet -</title>
+	 <script type="text/vbscript" src="./vbs/config.vbs"></script> 
+	 <script type="text/vbscript" src="./vbs/common.vbs"></script> 
+<style>
+body {height: 100%;background: #ffffff;font-family:'メイリオ' ,Meiryo;font-size: 16px;}
+td {height: 100%; background: #ffffff; font-family: 'メイリオ' ,Meiryo; font-size: 11px;}
+td.top {height: 100%; background: #ffffff; font-family: 'メイリオ' ,Meiryo; font-size: 16px;}
+h1 {background-color: #009999;height: 25px;clear: both;width: 900px;font-size: 14px;letter-spacing: 0.3em;color: #FFFFFF;font-weight: bold;margin: 5px;}
+input {width: 150px; height: 150px;background:#009999; border:1 solid #009999; border-left:1 solid #009999;color: #FFFFFF;}
+input.tile {width: 150px; height: 150px;background:#00BFBF; border:1 solid #00BFBF; border-left:1 solid #00BFBF;color: #FFFFFF;}
+input.nomal {width: 150px; height: 50px}
+input.search {width: 200px; height: 20px;font-size: 12px;background:#FFFFFF; border:1 solid #009999; border-left:1 solid #009999;color: #009999;}
+input.searchbtn {width: 50px; height: 20px;font-size: 12px;background:#009999; border:1 solid #009999; border-left:1 solid #009999;color: #FFFFFF;}
+#footer {font-size: 12px;color: #FFFFFF;background-color: #00BFBF;height: 18px;clear: both;width: 900px;text-align: right;}
+</style>
+</head>
+
+<body>
+<form>
+<div id="container">
+<h1><strong>　紅雷　動画管理システム -rubyBullet-</strong></h1>
+<center>
+<div id="MovieList">　</div>
+</center>
+</form>
+<div id='footer'>All Rights Reserved, Copyright(C) korai 2015　</div>
+
+</body>
+<script language="VBScript">
+'初期画面の表示
+startDisplay()
+</script>
+</html>
